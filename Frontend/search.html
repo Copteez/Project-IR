@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact Game Search</title>
+    <!-- <link rel="stylesheet" href="search.css"> -->
+    <script src="search.js"></script>
+</head>
+
+<body>
+    <header><h1>Genshin Impact Food Search</h1></header>
+
+    <form class="search_form">
+        <input type="text" id="search" placeholder="Search...">
+        <button type="submit" id="search-button">Search</button>
+    </form>
+
+    <!--Template of output (Have 3 item)-->
+    <!--Item-->
+    <div class="search_results">
+
+        <div class="icon">
+            <p id="food_name">Come and Get It</p>
+            <div class="icon_food">
+                <img src="/example_food.png">
+            </div>
+        </div>
+
+        <div class="info_food">
+            <div class="text_result_type1"><p>Type:&nbsp</p><p id="type_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Region:&nbsp</p><p id="region_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Recipe:&nbsp</p><p id="recipe_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Quality:&nbsp</p><p id="quality_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Proficiency:&nbsp</p><p id="proficiency_food">Ma ma mia</p></div>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Suspicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_sus">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_sus">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Normal</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_normal">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_normal">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Delicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_deli">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_deli">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+    </div>
+    <!--Item-->
+
+    <!--Item-->
+    <div class="search_results">
+
+        <div class="icon">
+            <p id="food_name">Come and Get It</p>
+            <div class="icon_food">
+                <img src="/example_food.png">
+            </div>
+        </div>
+
+        <div class="info_food">
+            <div class="text_result_type1"><p>Type:&nbsp</p><p id="type_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Region:&nbsp</p><p id="region_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Recipe:&nbsp</p><p id="recipe_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Quality:&nbsp</p><p id="quality_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Proficiency:&nbsp</p><p id="proficiency_food">Ma ma mia</p></div>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Suspicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_sus">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_sus">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Normal</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_normal">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_normal">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Delicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_deli">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_deli">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+    </div>    
+    <!--Item-->
+
+    <!--Item-->
+    <div class="search_results">
+
+        <div class="icon">
+            <p id="food_name">Come and Get It</p>
+            <div class="icon_food">
+                <img src="/example_food.png">
+            </div>
+        </div>
+
+        <div class="info_food">
+            <div class="text_result_type1"><p>Type:&nbsp</p><p id="type_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Region:&nbsp</p><p id="region_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Recipe:&nbsp</p><p id="recipe_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Quality:&nbsp</p><p id="quality_food">Ma ma mia</p></div>
+            <div class="text_result_type1"><p>Proficiency:&nbsp</p><p id="proficiency_food">Ma ma mia</p></div>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Suspicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_sus">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_sus">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Normal</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_normal">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_normal">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+
+        <div class="info_food">
+            <p>Rank: Delicious</p>
+            <div class="text_result_type1"><p>Effect:&nbsp</p><p id="effect_food_deli">Ma ma mia</p></div>
+            <div class="text_result_type2"><p>Description:&nbsp</p><p id="description_food_deli">A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying "Come on, eat, eat," hence the name.</p></div>
+            <p></p>
+        </div>
+    </div>
+    <!--Item-->
+    <!--Template of output (Have 3 item)-->
+</body>
+
+</html>

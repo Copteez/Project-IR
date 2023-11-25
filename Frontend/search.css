@@ -1,0 +1,123 @@
+
+/* General Styles */
+@font-face {
+    font-family: 'GenshinFont';
+    src: url('/genshin_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GenshinFont2';
+    src: url('/genshin_font2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GenshinFont', sans-serif;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url('backgound_4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'GenshinFont2';
+    text-align: center;
+}
+
+/*-------------------------------------search box-------------------------------------*/
+
+.search_form {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width:  100%; 
+}
+
+#search {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#search-button {
+    border: none;
+    background-color: #ffe100;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #168200;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.search_results {
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    padding: 20px;
+}
+
+.search_results img{
+    width: 100%;
+    height: auto;
+}
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#search {
+    flex-grow: 2;
+    padding: 5px;
+}
+
+/*-------------------------------------search box-------------------------------------*/
+/*------------------------------------search result-----------------------------------*/
+
+.search_results {
+    display: grid;
+    grid-template-columns: 15% 20% 22% 21% 22%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info_food {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_result_type1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_result_type2 {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+/*------------------------------------search result-----------------------------------*/
